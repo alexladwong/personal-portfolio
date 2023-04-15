@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@300;400;500&display=swap");
+/* font-family: "M PLUS Code Latin", sans-serif; */
+:root{
+    --clr-blue: #1A91F0;
+    --clr-blue-mid: #1170CD;
+    --clr-blue-dark: #1A1C6A;
+    --clr-white: #fff;
+    --clr-bright: #EFF2F9;
+    --clr-dark: #1e2532;
+    --clr-black: #000;
+    --clr-grey: #656e83;
+    --clr-green: #084C41;
+    --clr-green: #21708f;
+    --font-poppins: 'Poppins', sans-serif;
+    --font-Latin: "M PLUS Code Latin", sans-serif;
+    --font-manrope: 'Manrope', sans-serif;;
+    --transition: all 300ms ease-in-out;
+}
+
+body{
+    height: 100%;
+    background-color: rgb(220, 227, 232) !important;
+}
+#profile-pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.col-md-3, .col-md-6{
+    background: rgba(2, 0, 36, 0.532);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.13) 0%, rgba(9,9,121,1) 35%, rgba(0, 213, 255, 0.175) 100%);
+    border-radius: 18px;
+    gap: 10px;
+}
+
+
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+.social-link ul, li{
+    list-style-type: none;
+    display: inline-block;
+}
+.social{
+    width: 30px;
+    height: 30px;
+}
+.label{
+    color:#b9becfd5;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    }
+  
+    .fa-linkedin {
+      
+      color: rgb(42, 111, 248);
+    }
+    
+    .fa-instagram {
+     
+      color: rgb(241, 84, 84);
+    }
+    
+    .fa-pinterest {
+     
+      color: rgb(244, 34, 34);
+    }
+    
+    
+    .fa-skype {
+     
+      color: #009EDC;
+    }
+    .fa-envelope{
+          color:#4285F4;
+    }
+    .fa-github{
+          color: #a09a9a;
+    }
